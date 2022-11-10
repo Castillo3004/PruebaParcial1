@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:accessibilityHeading="true"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="413dp"
+        android:layout_height="66dp"
+        android:background="#2F689D"
+        android:fontFamily="arial"
+        android:paddingHorizontal="50px"
+        android:paddingTop="50px"
+        android:text="PETS - Servicios"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="258dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="32dp"
+        android:text="Servicios de Mascotas"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#182B50"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="476dp"
+        android:layout_height="242dp"
+        android:layout_marginTop="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/mascotas_inicio" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="240dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="40dp"
+        android:background="#2F689D"
+        android:text="IMC Canino"
+        android:textAllCaps="false"
+        app:icon="@drawable/uno"
+        app:iconSize="60px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="240dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="24dp"
+        android:background="#2F689D"
+        android:text="Grasa Coporal Macho"
+        android:textAllCaps="false"
+        app:icon="@drawable/perro"
+        app:iconSize="60px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn1" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="240dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="24dp"
+        android:background="#2F689D"
+        android:text="Grasa Coporal Hembra"
+        android:textAllCaps="false"
+        android:textSize="12sp"
+        app:icon="@drawable/perrouno"
+        app:iconSize="60px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
